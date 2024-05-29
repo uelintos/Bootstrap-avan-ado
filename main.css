@@ -1,0 +1,20 @@
+header{
+    padding-top: 20px;
+    padding-bottom: 16px;
+    padding-left: 3em;
+}
+body{
+    background-color:#6d6d6d ;
+}
+
+#container2{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.col{
+    padding-bottom: 10px;
+    display: block ruby;
+}

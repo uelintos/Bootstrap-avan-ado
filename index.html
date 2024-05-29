@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt=BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="bg-dark">
+        <header>
+            <h1 class="mx-auto text-white">Ebac carros</h1>
+        </header>
+    </div>
+    <div class="container-lg">
+        <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="2000" class="carousel-item active">
+                    <img class="d-block w-100" src="imagens/carro1.jpg">
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img class="d-block w-100" src="imagens/carro2.jpg">
+                </div>
+                <div data-bs-interval="2000" class="carousel-item">
+                    <img class="d-block w-100" src="imagens/carro3.jpg">
+                </div>
+            </div>
+            <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div id="container2" class="container text-center justify-center">
+        <div class="row">
+          <div class="col">
+            <div class="card text-bg-dark" style="width: 18rem;">
+                <img src="imagens/carro4.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Audi</h5>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam laborum labore at deleniti. Veniam ad nesciunt, id facere aliquam asperiores nostrum perferendis cupiditate sunt quas atque sequi, quo ratione incidunt!</p>
+                  <a href="#" class="btn btn-primary">Ver mais</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card text-bg-dark" style="width: 18rem;">
+                <img src="imagens/carro5.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Mulcle cars</h5>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam laborum labore at deleniti. Veniam ad nesciunt, id facere aliquam asperiores nostrum perferendis cupiditate sunt quas atque sequi, quo ratione incidunt!</p>
+                  <a href="#" class="btn btn-primary">Ver mais</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card text-bg-dark" style="width: 18rem;">
+                <img src="imagens/carro6.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Mercedes</h5>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam laborum labore at deleniti. Veniam ad nesciunt, id facere aliquam asperiores nostrum perferendis cupiditate sunt quas atque sequi, quo ratione incidunt!</p>
+                  <a href="#" class="btn btn-primary">Ver mais</a>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    <script src="./lib/bootstrap.bundle.min.js.js"></script>
+</body>
+</html>
